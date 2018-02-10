@@ -17,7 +17,7 @@ $(document).ready(function() {
                         swal("Opps", data.message, "error");
                         break;
                     case 0:
-                        swal(data.title, data.message, "success");
+                        swal(data.message, data.title);
                         break;
                 }
             },
